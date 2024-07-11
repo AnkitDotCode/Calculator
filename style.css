@@ -13,11 +13,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #2aebe8, #da0af1);
+    background: linear-gradient(45deg, #d64242, #3345a1);
 }
 
 .calculator{
-    border: 2px solid #020003;
+    border: 2px solid #ffffff;
     padding: 25px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgb(247, 248, 249);
@@ -25,7 +25,7 @@ body{
 
 input{
     width: 320px;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     padding: 24px;
     margin: 10px;
     background: transparent;
@@ -49,14 +49,14 @@ button{
     background: transparent;
     color: #ffffff;
     font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: -8px -8px 15px rgb(255, 255, 255);
     cursor: pointer;
 }
 
 .equalButton{
-    background-color: #fb7c14;
+    background-color: #064d25;
 }
 
 .operator{
-    color: #010200e2;
+    color: #ffffff;
 }
